@@ -1,5 +1,5 @@
 test_set = [10, 15, 3, 7]
-k = 17
+k = 25
 
 def is_sum(set, k):
   recip_set = []
