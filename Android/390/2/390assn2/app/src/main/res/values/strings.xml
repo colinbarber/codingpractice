@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">390assn2</string>
+    <string name="button_name">View My Grades</string>
+    <string name="grades">Grades</string>
+    <string name="settings_button">settings_button</string>
+</resources>
