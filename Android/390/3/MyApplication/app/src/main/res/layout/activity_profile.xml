@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_below="@+id/ageEditView"
+        android:text="ID:" />
+
+    <EditText
+        android:id="@+id/idEditView"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_below="@+id/textView3"
+        android:hint="Enter ID"
+        android:inputType="number"
+        android:maxLength="6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_below="@+id/nameEditView"
+        android:text="AGE:" />
+
+    <EditText
+        android:id="@+id/ageEditView"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nameEditView"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_below="@+id/textView2"
+        android:hint="Enter Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/nameEditView"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:digits="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ -"
+        android:hint="Enter name"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/nameEditView"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_alignLeft="@+id/nameEditView"
+        android:layout_marginBottom="-96dp"
+        android:text="NAME:" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="137dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/nameEditView"
+        android:layout_alignLeft="@+id/nameEditView"
+        android:layout_marginBottom="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Save"
+        android:visibility="gone" />
+
+</RelativeLayout>
