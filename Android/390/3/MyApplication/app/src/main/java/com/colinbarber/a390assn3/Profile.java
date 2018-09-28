@@ -1,21 +1,21 @@
 package com.colinbarber.a390assn3;
 
+/*  Stores a user's name, age and ID
+* */
 public class Profile {
 
     private String profileName;
     private int profileAge;
     private int profileID;
 
-    public Profile(String name, int age, int id){
-        profileName = name;
-        profileAge = age;
-        profileID = id;
+    public Profile(String n, int a, int i) {
+        profileName = n;
+        profileAge = a;
+        profileID = i;
     }
 
-    public void setProfileName(String name){profileName=name;}
-    public void setProfileAge(int age){profileAge=age;}
-    public void setProfileID(int id){profileID=id;}
-    public String getProfileName(){return profileName;}
-    public int getProfileAge(){return profileAge;}
-    public int getProfileID(){return profileID;}
+    // returns name, age or ID contained in Profile
+    public String getProfileName() {return profileName;}
+    public int getProfileAge() {return profileAge;}
+    public int getProfileID() {return profileID;}
 }

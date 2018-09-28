@@ -8,8 +8,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/*  The main activity contains a button displaying the name of the profile.
+*   Clicking the button takes the user to the ProfileActivity.
+*   */
 public class MainActivity extends AppCompatActivity {
-
     protected Button button;
 
     @Override
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart(){
+    protected void onStart() {
         super.onStart();
         SharedPreferences prefs = getSharedPreferences("ProfilePreference", Context.MODE_PRIVATE);
         String name =  prefs.getString("profileName",null);
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             button.setText(name);
     }
 
-    protected void gotoProfileActivity(){
+    protected void gotoProfileActivity() {
         Intent intent = new Intent(this, ProfileActivity.class);
         startActivity(intent);
     }

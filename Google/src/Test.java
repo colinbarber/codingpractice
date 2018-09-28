@@ -1,10 +1,8 @@
 public class Test {
     public static void main(String[] args) {
 
-        System.out.println();
-        //int x = Integer.valueOf(args[0]);
-        //int y = Integer.valueOf(args[1]);
+        int[][] maze = {{0, 1, 1, 0}, {0, 0, 0, 1}, {1, 1, 0, 0}, {1, 1, 1, 0}};
 
-        //System.out.println(Answer.answer(x,y));
+        System.out.println(Answer.answer(maze));
     }
 }
