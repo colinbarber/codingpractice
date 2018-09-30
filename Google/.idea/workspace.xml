@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de060d-6a1a-4230-9d73-bac4dcc580ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Answer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android/390/3/MyApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/Profile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/ProfileActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/SharedPreferencesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/390/3/MyApplication/app/src/main/java/com/colinbarber/a390assn3/SharedPreferencesHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoogleApp/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoogleApp/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GoogleApp/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GoogleApp/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Solution1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +17,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="227">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -40,8 +26,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -56,6 +42,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Colin Barber &lt;colinbmusic@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -189,6 +180,14 @@
       <option name="presentableId" value="Default" />
       <updated>1537301425290</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added level three bunny puzzle">
+      <created>1538113792461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538113792461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -221,6 +220,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added level three bunny puzzle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added level three bunny puzzle" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Answer3.java">
@@ -373,15 +376,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="227">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>

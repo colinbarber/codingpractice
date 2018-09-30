@@ -3,54 +3,63 @@
 /*  Bunny Maze Puzzle
     */
 public class Answer {
-    static int minLength = 0; // holds counter for breadth first search
+    private static int minLength = 0; // holds counter for breadth first search
 
     public static int answer(int[][] maze) {
         // in order to do breadth-first search we need to implement a queue
         nodeQueue queue = new nodeQueue(maze.length, maze[1].length);
 
-        // move in all possible directions.
-        while (!queue.isEmpty()) {
-            Node toProcess = queue.dequeue();
-            switch (toProcess.prev) {
-                case "right": { moveRight(toProcess, maze); break;}
-                case "down": { moveDown(toProcess, maze); break;}
-                case "up": { moveUp(toProcess, maze); break;}
-                case "left": { moveLeft(toProcess, maze); break;}
+        // process each node in queue
+        while (minLength == 0 && !queue.isEmpty()) {
+            Node node = queue.dequeue();
+
+            // if exit node, set minLength and skip processing
+            if (node.xCoord == maze.length-1 && node.yCoord == maze[1].length-1) {
+                minLength = node.step;
             }
+            // if other node, add all possible routes to the queue (except previous step)
+            else {
+                // check up
+                if (!node.prev.equals("down") && node.yCoord != 0) {
+                    if (maze[node.xCoord][node.yCoord-1] == 0) {
+                        queue.enqueue(new Node(node.xCoord, node.yCoord-1, node.wall, "up", node.step+1));
+                    }
+                    else if (node.wall && node.yCoord != 1 && maze[node.xCoord][node.yCoord-2] == 0) {
+                        queue.enqueue(new Node(node.xCoord, node.yCoord-1, false, "up", node.step+1));
+                    }
+                }
+                // check down
+                if (!node.prev.equals("up") && node.yCoord != maze[1].length-1) {
+                    if (maze[node.xCoord][node.yCoord+1] == 0) {
+                        queue.enqueue(new Node(node.xCoord, node.yCoord+1, node.wall, "up", node.step+1));
+                    }
+                    else if (node.wall && node.yCoord != maze[1].length-2 && maze[node.xCoord][node.yCoord+2] == 0) {
+                        queue.enqueue(new Node(node.xCoord, node.yCoord+1, false, "up", node.step+1));
+                    }
+                }
+                // check right
+                if (!node.prev.equals("left") && node.xCoord != maze.length-1) {
+                    if (maze[node.xCoord+1][node.yCoord] == 0) {
+                        queue.enqueue(new Node(node.xCoord+1, node.yCoord, node.wall, "up", node.step+1));
+                    }
+                    else if (node.wall && node.xCoord != maze.length-2 && maze[node.xCoord+2][node.yCoord] == 0) {
+                        queue.enqueue(new Node(node.xCoord+1, node.yCoord, false, "up", node.step+1));
+                    }
+                }
+                // check left
+                if (!node.prev.equals("right") && node.xCoord != 0) {
+                    if (maze[node.xCoord-1][node.yCoord] == 0) {
+                        queue.enqueue(new Node(node.xCoord-1, node.yCoord, node.wall, "up", node.step+1));
+                    }
+                    else if (node.wall && node.xCoord != 1 && maze[node.xCoord-2][node.yCoord] == 0) {
+                        queue.enqueue(new Node(node.xCoord-1, node.yCoord, false, "up", node.step+1));
+                    }
+                }
+            }
+
         }
         return minLength;
     }
-
-    // CASE 1: RIGHT
-    private static void moveRight(Node node, int[][] maze) {
-        if (minLength != 0) {
-            // check up
-            if (minLength != 0 && node.xCoord != 0) {
-                if ()
-            }
-            // check right
-
-            // check down
-        }
-    }
-
-    // CASE 2: DOWN
-    private static void moveDown(Node node, int[][] maze) {
-
-    }
-
-    // CASE 3: LEFT (NOT AT BEGINNING)
-    private static void moveLeft(Node node, int[][] maze) {
-
-    }
-
-    // CASE 4: UP (NOT AT BEGINNING)
-    private static void moveUp(Node node, int[][] maze) {
-
-    }
-
-    //System.out.println(String.valueOf(queue.length));
 
     private static class nodeQueue {
         private Node[] nodeArray;
@@ -59,17 +68,18 @@ public class Answer {
 
         nodeQueue(int length, int width) {
             nodeArray = new Node[(length * width)+1];
-            enqueue(new Node(0,0, true,"right"));
+            System.out.println("new queue length: "+String.valueOf(nodeArray.length));
+            enqueue(new Node(0,0, true,"right", 1));
         }
 
-        public Boolean isEmpty() { return start == end; }
+        Boolean isEmpty() { return start == end; }
 
-        public void enqueue(Node node) {
+        void enqueue(Node node) {
             nodeArray[start] = node;
             start++;
         }
 
-        public Node dequeue() {
+        Node dequeue() {
             Node node = null;
             if (!isEmpty()) {
                 node = nodeArray[end];
@@ -80,16 +90,18 @@ public class Answer {
     }
 
     private static class Node {
-        public int xCoord;
-        public int yCoord;
-        public Boolean wall;
-        public String prev;
+        int xCoord;
+        int yCoord;
+        Boolean wall; // true if wall can be broken
+        String prev;
+        int step;
 
-        Node(int x, int y, Boolean w, String p) {
+        Node(int x, int y, Boolean wa, String pr, int st) {
             xCoord = x;
             yCoord = y;
-            prev = p;
-            wall = w;
+            prev = pr;
+            wall = wa;
+            step = st;
         }
     }
 }
