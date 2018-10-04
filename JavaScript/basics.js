@@ -98,3 +98,15 @@ numberStr = +"06";
 
 console.log(numberStr);
 
+// parsing JSON
+let jstr = '{"mykey": "my value"}';
+let data = JSON.parse(jstr);
+console.log(data.mykey);
+
+// creating JSON
+let dog = {
+    name: "Fido",
+    dob: new Date(),
+    legs: [1,2,3,4]
+};
+let jsonstr = JSON.stringify(dog);
