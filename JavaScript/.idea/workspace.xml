@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d288091b-2d99-4dc9-9838-3f56aae2d156" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Google/src/googleinterview2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/LinkedListFindLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/LinkedListFindMiddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/LinkedListRemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/LinkedListReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/StringFindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview Questions/src/googlequestion1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Google/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Google/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interview Questions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview Questions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interview Questions/out/production/Interview Questions/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview Questions/out/production/Interview Questions/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/basics.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +17,7 @@
     <session id="635779158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
@@ -55,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="2568" />
-          <entry key="txt" value="29" />
+          <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2568" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
     </session>
@@ -184,7 +166,7 @@
       <workItem from="1538533061712" duration="433000" />
       <workItem from="1538589546153" duration="421000" />
       <workItem from="1538626780802" duration="501000" />
-      <workItem from="1538683740305" duration="1031000" />
+      <workItem from="1538683740305" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="Added JavaScript Practice">
       <created>1538456888501</created>
@@ -193,11 +175,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538456888501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added object patterns">
+      <created>1538686433242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538686433242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9687000" />
+    <option name="totallyTimeSpent" value="9726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-242" y="-1200" width="1920" height="1200" extended-state="0" />
@@ -230,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added JavaScript Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JavaScript Practice" />
+    <MESSAGE value="Added object patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added object patterns" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/basics.js">

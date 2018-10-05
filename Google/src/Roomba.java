@@ -11,7 +11,7 @@ interface Robot {
     // Clean the current cell.
     void Clean();
 }
-
+/*
         ##########
         #........#
         #...^....#
@@ -19,3 +19,26 @@ interface Robot {
         ####.#####
         #.....#
         #######
+*/
+
+public class Roomba extends Robot {
+    @Override
+    public void TurnLeft(int k) {
+
+    }
+
+    @Override
+    public void TurnRight(int k) {
+
+    }
+
+    @Override
+    public void Clean() {
+
+    }
+
+    @Override
+    public boolean Move() {
+        return false;
+    }
+}
