@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4de060d-6a1a-4230-9d73-bac4dcc580ed" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/googleinterview2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roomba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interview Questions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview Questions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Interview Questions/src/googlequestion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Interview Questions/src/LinearChess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaScript/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScript/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -231,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538360090968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="failed interview">
+      <created>1538701037508</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538701037508</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,7 +272,8 @@
     <MESSAGE value="Added level three bunny puzzle" />
     <MESSAGE value="Added 3rd android project and more bunny puzzle" />
     <MESSAGE value="finished bunny puzzle!" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished bunny puzzle!" />
+    <MESSAGE value="failed interview" />
+    <option name="LAST_COMMIT_MESSAGE" value="failed interview" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test.java">
